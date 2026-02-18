@@ -35,8 +35,8 @@ const {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Helm",
-  tagline: "The package manager for Kubernetes",
+  title: "Wilhelm",
+  tagline: "De Paketverwalter för Kubernetes",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -60,8 +60,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "helm", // Usually your GitHub org/user name.
-  projectName: "helm-www", // Usually your repo name.
+  organizationName: "kuboschek", // Usually your GitHub org/user name.
+  projectName: "wilhelm-www", // Usually your repo name.
 
   onBrokenLinks: "throw",
 

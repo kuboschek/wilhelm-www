@@ -7,32 +7,31 @@ import Translate from '@docusaurus/Translate';
 
 const FeatureList = [
   {
-    title: <Translate id="home.features.manageComplexity" description="Manage Complexity section title">Manage Complexity</Translate>,
+    title: <Translate id="home.features.manageComplexity" description="Manage Complexity section title">Komplexität verwalten</Translate>,
     description: (
       <>
-        <Translate id="home.features.manageComplexity.description" description="Manage Complexity section description">Charts describe even the most complex apps, provide repeatable
-        application installation, and serve as a single point of authority.</Translate>
+        <Translate id="home.features.manageComplexity.description" description="Manage Complexity section description">Charts beschrieven ok de allerkomplexesten Apps, geven wedderhaalbare Anwendungsinstallation, un denen as eenzige Punkt vun Autorität.</Translate>
       </>
     ),
   },
   {
-    title: <Translate id="home.features.easyUpdates" description="Easy Updates section title">Easy Updates</Translate>,
+    title: <Translate id="home.features.easyUpdates" description="Easy Updates section title">Eenfache Updates</Translate>,
     description: (
       <>
-        <Translate id="home.features.easyUpdates.description" description="Easy Updates section description">Take the pain out of updates with in-place upgrades and custom hooks.</Translate>
+        <Translate id="home.features.easyUpdates.description" description="Easy Updates section description">Nimm de Pien rut ut Updates mit in-place Upgrades un egen Hooks.</Translate>
       </>
     ),
   },
   {
-    title: <Translate id="home.features.simpleSharing" description="Simple Sharing section title">Simple Sharing</Translate>,
+    title: <Translate id="home.features.simpleSharing" description="Simple Sharing section title">Eenfach Delen</Translate>,
     description: (
       <>
-        <Translate id="home.features.simpleSharing.description" description="Simple Sharing section description">Charts are easy to version, share, and host on public or private servers.</Translate>
+        <Translate id="home.features.simpleSharing.description" description="Simple Sharing section description">Charts sünd eenfach to versionern, to delen un to hosten op öffentliche oder private Servers.</Translate>
       </>
     ),
   },
   {
-    title: <Translate id="home.features.rollbacks" description="Rollbacks section title">Rollbacks</Translate>,
+    title: <Translate id="home.features.rollbacks" description="Rollbacks section title">Torüchrullen</Translate>,
     description: (
       <>
         <Translate
@@ -40,10 +39,10 @@ const FeatureList = [
           description="Rollbacks section description"
           values={{
             helmRollback: (
-              <code>helm rollback</code>
+              <code>wilhelm rollback</code>
             ),
           }}>
-          {'Use {helmRollback} to roll back to an older version of a release with ease.'}
+          {'Bruuk {helmRollback} to torüchrullen na en older Version vun en Release mit Leichtigkeit.'}
         </Translate>
       </>
     ),
@@ -75,7 +74,7 @@ export default function HomeFeatures() {
       )}
     >
       <div className="container">
-        <Heading as="h2"><Translate id="home.features.title" description="Features section title">Features</Translate></Heading>
+        <Heading as="h2"><Translate id="home.features.title" description="Features section title">Funkschonen</Translate></Heading>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

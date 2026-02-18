@@ -1,0 +1,30 @@
+.disclaimer {
+  background: linear-gradient(135deg, #1c4e80 0%, #0091d5 100%);
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-bottom: 3px solid #a5d8ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.disclaimerText {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.disclaimerText strong {
+  font-size: 1.25rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .disclaimerText {
+    font-size: 1rem;
+  }
+  
+  .disclaimerText strong {
+    font-size: 1.1rem;
+  }
+}

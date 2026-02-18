@@ -1,6 +1,12 @@
 ![github-banner-helm-helmwww](https://user-images.githubusercontent.com/686194/68531441-f4ad4e00-02c6-11ea-982b-74d7c3ff0071.png)
 
-This is where you'll find all of the assets that make up [helm.sh](https://helm.sh/), the website for the [Helm](https://github.com/helm/helm) project. If you're looking to edit docs, report a website bug, or write a new blog post, you've come to the right place!
+# Wilhelm — Helm op Plattdüütsch 🚢
+
+Dit is wo du alle Assets finnst de maakt sünd för [wilhelm (helm op Plattdüütsch)](https://helm.sh/). Wilhelm is de Plattdüütsche Naam vun Helm. Allens is as bi Helm, man blots op Plattdüütsch — de ole Spraak ut Preußen un Noord-Düütschland.
+
+**Wat is dit?** Dit is en humorvolle Adaptatschoon vun de Helm-Website, de bruukt Plattdüütsch (Prussian Low German) för alle Text. De Funktionalität blievt de sülvige as bi Helm, man de Spraak is wat speziell!
+
+This is where you'll find all of the assets that make up the wilhelm website, a Prussian German (Plattdeutsch/Low German) version of [helm.sh](https://helm.sh/), the website for the [Helm](https://github.com/helm/helm) project. If you're looking to edit docs, report a website bug, or write a new blog post, you've come to the right place!
 
 ## Development
 
