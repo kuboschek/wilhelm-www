@@ -13,15 +13,15 @@ export default function HomeHeader() {
         <Heading as="h1">
           <Translate
             id="home.header.tagline"
-            description="Helm tagline">
-            The package manager for Kubernetes
+            description="Wilhelm tagline">
+            De Paketverwalter för Kubernetes
           </Translate>
         </Heading>
         <h2>
           <Translate
             id="home.header.subtitle"
             description="Home page header subtitle">
-            Helm is the best way to find, share, and use software built for
+            Wilhelm is de beste Weg to finnen, delen un bruken vun Software, de maakt is för
           </Translate>
           {" "}
           <a href="https://kubernetes.io/">Kubernetes</a>.

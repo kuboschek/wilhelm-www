@@ -100,7 +100,7 @@ export default function HomeSupport() {
               id="home.support.title"
               description="Community support section title"
             >
-              Supporters
+              Ünnerstütters
             </Translate>
           </Heading>
           <p>
@@ -108,8 +108,7 @@ export default function HomeSupport() {
               id="home.support.subtitle"
               description="Community support section subtitle"
             >
-              Helm is supported by and built with a community of over 400
-              developers.
+              Wilhelm warrt ünnerstütt un buut mit en Gemeinschop vun över 400 Entwicklers.
             </Translate>
           </p>
         </div>
@@ -130,13 +129,13 @@ export default function HomeSupport() {
                       id="home.support.maintainersLink"
                       description="Core maintainers link text"
                     >
-                      many other wonderful helm core maintainers
+                      veele annere wunnerbore Wilhelm-Kärn-Plegers
                     </Translate>
                   </a>
                 ),
               }}
             >
-              {"...and {maintainersLink}."}
+              {"...un {maintainersLink}."}
             </Translate>
           </p>
         </div>

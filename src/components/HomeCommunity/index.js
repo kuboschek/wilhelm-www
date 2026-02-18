@@ -61,7 +61,7 @@ const BlockList = [
         id="home.community.nextFeatureRelease"
         description="Next Feature Release section title"
       >
-        Next Feature Release
+        Näägste Funkschonen-Release
       </Translate>
     ),
     description: (
@@ -87,7 +87,7 @@ const BlockList = [
                 id="home.community.nextFeatureRelease.calendar"
                 description="Release Calendar link"
               >
-                Release Calendar
+                Release-Kalender
               </Translate>
             </a>
           </dt>
@@ -98,7 +98,7 @@ const BlockList = [
   {
     title: (
       <Translate id="home.community.events" description="Events section title">
-        Events
+        Veranstaltungen
       </Translate>
     ),
     description: (
@@ -110,13 +110,13 @@ const BlockList = [
               id="home.community.upcomingEventsSubtitle"
               description="Upcoming Events subtitle"
             >
-              Upcoming Events
+              Kommende Veranstaltungen
             </Translate>
           </dt>
           <dd>
             <em><CustomDate dateString="2026-03-23" endDateString="2026-03-26" formatType="dayRange" /></em> -{" "}
             <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/">
-              KubeCon Europe 2026
+              KubeCon Europa 2026
             </a>
           </dd>
           <dt>
@@ -125,25 +125,25 @@ const BlockList = [
               id="home.community.pastEventsSubtitle"
               description="Past Events subtitle"
             >
-              Past Events
+              Vergangene Veranstaltungen
             </Translate>
           </dt>
           <dd>
             <em><CustomDate dateString="2025-11-10" endDateString="2025-11-13" formatType="dayRange" /></em> -{" "}
             <a href="https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/">
-              KubeCon North America 2025
+              KubeCon Noord-Amerika 2025
             </a>
           </dd>
           <dd>
             <em><CustomDate dateString="2025-04-01" endDateString="2025-04-04" formatType="dayRange" /></em> -{" "}
             <a href="https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-europe/">
-              KubeCon Europe 2025
+              KubeCon Europa 2025
             </a>
           </dd>
           <dd>
             <em><CustomDate dateString="2024-11-12" endDateString="2024-11-15" formatType="dayRange" /></em> -{" "}
             <a href="https://events.linuxfoundation.org/archive/2024/kubecon-cloudnativecon-north-america/">
-              KubeCon North America 2024
+              KubeCon Noord-Amerika 2024
             </a>
           </dd>
         </dl>
@@ -173,7 +173,7 @@ const BlockList = [
                     id="home.community.sigApps.meetLink"
                     description="Link to SIG Apps meetings"
                   >
-                    meet each week
+                    drepen sik elke Weken
                   </Translate>
                 </a>
               ),
@@ -183,14 +183,14 @@ const BlockList = [
                     id="home.community.sigApps.youtubeLink"
                     description="Link to YouTube recordings"
                   >
-                    shared to YouTube
+                    op YouTube deelt
                   </Translate>
                 </a>
               ),
             }}
           >
             {
-              "They {meetLink} to demo and discuss tools and projects. Community meetings are recorded and {youtubeLink}."
+              "Se {meetLink} to demoen un diskuteern över Warktüüg un Projekten. Gemeinschop-Drepen warrt opnahmen un {youtubeLink}."
             }
           </Translate>
         </p>
@@ -200,7 +200,7 @@ const BlockList = [
   {
     title: (
       <Translate id="home.community.developerStandups">
-        Developer Standups
+        Entwickler-Standups
       </Translate>
     ),
     description: (
@@ -212,7 +212,7 @@ const BlockList = [
               id="home.community.developerStandups.time"
               description="Developer Standups day and time"
             >
-              Thursdays 9:30-10am (PT)
+              Dunnerdags 9:30-10 Uhr (PT)
             </Translate>
           </a>
         </p>
@@ -228,14 +228,14 @@ const BlockList = [
                     id="home.community.developerStandups.communityRepoLink"
                     description="Community repo link"
                   >
-                    community repo
+                    Gemeinschop-Repo
                   </Translate>
                 </a>
               ),
             }}
           >
             {
-              "These meetings are open to all. Check the {communityRepoLink} for notes and details."
+              "Disse Drepen sünd open för alle. Kiek in dat {communityRepoLink} för Notizen un Details."
             }
           </Translate>
         </p>
@@ -257,20 +257,20 @@ const BlockList = [
                     id="home.community.slack.join.slackLink"
                     description="Request access to slack link"
                   >
-                    Request access here
+                    Frag hier na Toegang
                   </Translate>
                 </a>
               ),
             }}
           >
-            {"{slackLink} to join the Kubernetes Slack team."}
+            {"{slackLink} to tokamen na dat Kubernetes-Slack-Team."}
           </Translate>
         </p>
         <dl>
           <dt>
             <MdForum className={styles.icon} />
             <a href="https://kubernetes.slack.com/messages/helm-users">
-              Helm Users
+              Wilhelm-Brukers
             </a>
           </dt>
           <dd>
@@ -278,15 +278,14 @@ const BlockList = [
               id="home.community.slack.helmUsers.description"
               description="helm-users slack channel description"
             >
-              Discussion around using Helm, working with charts and solving
-              common errors.
+              Diskussion över dat Bruken vun Wilhelm, dat Arbeiden mit Charts un dat Lösen vun gemeene Fehlers.
             </Translate>
           </dd>
 
           <dt>
             <MdForum className={styles.icon} />
             <a href="https://kubernetes.slack.com/messages/helm-dev">
-              Helm Development
+              Wilhelm-Entwikklung
             </a>
           </dt>
           <dd>
@@ -294,7 +293,7 @@ const BlockList = [
               id="home.community.slack.helmDevelopment.description"
               description="helm-dev slack channel description"
             >
-              Topics regarding Helm development, ongoing PRs, releases, etc.
+              Themen över Wilhelm-Entwikklung, loopende PRs, Releases, usw.
             </Translate>
           </dd>
 
@@ -307,7 +306,7 @@ const BlockList = [
               id="home.community.slack.charts.description"
               description="charts slack channel description"
             >
-              Discussion for users and contributors to Helm Charts.
+              Diskussion för Brukers un Bidraagers to Wilhelm Charts.
             </Translate>
           </dd>
         </dl>
@@ -320,7 +319,7 @@ const BlockList = [
         id="home.community.contributing"
         description="Contributing section title"
       >
-        Contributing
+        Bidragen
       </Translate>
     ),
     description: (
@@ -330,7 +329,7 @@ const BlockList = [
             id="home.community.contributing.description"
             description="Contributing section description"
           >
-            Helm always welcomes new contributions to the project!
+            Wilhelm heet jümmerhen ne'e Bidragen to dat Projekt willkamen!
           </Translate>
         </p>
         <h3>
@@ -338,7 +337,7 @@ const BlockList = [
             id="home.community.contributing.whereToBegin"
             description="Where to begin? section title"
           >
-            Where to begin?
+            Wo to anfangen?
           </Translate>
         </h3>
         <p>
@@ -346,8 +345,7 @@ const BlockList = [
             id="home.community.contributing.whereToBegin.description"
             description="Where to begin? section description"
           >
-            Helm is a big project with a lot of users and contributors. It can
-            be a lot to take in!
+            Wilhelm is en groot Projekt mit veele Brukers un Bidraagers. Dat kann veel ween to verdauen!
           </Translate>
         </p>
         <p>
@@ -361,14 +359,14 @@ const BlockList = [
                     id="home.community.contributing.whereToBegin.goodFirstIssuesLink"
                     description="Good first issues link"
                   >
-                    good first issues
+                    goode eerste Issues
                   </Translate>
                 </a>
               ),
             }}
           >
             {
-              "We have a list of {goodFirstIssuesLink} if you want to help but don't know where to start."
+              "Wi hemmt en List vun {goodFirstIssuesLink} wenn du helpen wullt man nich weetst wo to anfangen."
             }
           </Translate>
         </p>
@@ -378,7 +376,7 @@ const BlockList = [
             id="home.community.contributing.whatDoIDo"
             description="What do I do? section title"
           >
-            What do I do?
+            Wat do ik?
           </Translate>
         </h3>
         <p>
@@ -392,14 +390,14 @@ const BlockList = [
                     id="home.community.contributing.whatDoIDo.contributionGuideLink"
                     description="Contribution Guide link"
                   >
-                    Contribution Guide
+                    Bidrag-Gied
                   </Translate>
                 </a>
               ),
             }}
           >
             {
-              "Before you contribute some code, please read our {contributionGuideLink}. It goes over the processes around creating and reviewing pull requests."
+              "Bevor du wat Code bidraagst, lees bitte unsen {contributionGuideLink}. Dat geiht över de Prozessen rund dat Maken un Reviewen vun Pull Requests."
             }
           </Translate>
         </p>
@@ -414,7 +412,7 @@ const BlockList = [
                     id="home.community.contributing.whatDoIDo.signYourCommitsLink"
                     description="Sign your commits link"
                   >
-                    sign your commits
+                    tekeen dien Commits
                   </Translate>
                 </a>
               ),
@@ -423,7 +421,7 @@ const BlockList = [
             }}
           >
             {
-              "After you write some code, please {signYourCommitsLink} to ensure Helm adheres to the {dcoLink} agreement used by the {cncfLink}."
+              "Nadem du wat Code schreven hest, bitte {signYourCommitsLink} to sicherstelln dat Wilhelm sik an de {dcoLink}-Överenkunft höllt, de vun de {cncfLink} bruukt warrt."
             }
           </Translate>
         </p>
@@ -455,8 +453,8 @@ export default function HomeCommunity() {
       )}
     >
       <div className="container">
-        <Heading as="h2"><Translate id="home.community.title" description="Join the Community title">Join the Community</Translate></Heading>
-        <p><Translate id="home.community.subtitle" description="Join the Community subtitle">More information about the Helm project, and how to contribute.</Translate></p>
+        <Heading as="h2"><Translate id="home.community.title" description="Join the Community title">Kaam to de Gemeinschop</Translate></Heading>
+        <p><Translate id="home.community.subtitle" description="Join the Community subtitle">Mehr Informatschonen över dat Wilhelm-Projekt, un wo to bidragen.</Translate></p>
         <div className="row">
           {BlockList.map((props, idx) => (
             <Block key={idx} {...props} />

@@ -35,8 +35,8 @@ const {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Helm",
-  tagline: "The package manager for Kubernetes",
+  title: "Wilhelm",
+  tagline: "De Paketverwalter för Kubernetes",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

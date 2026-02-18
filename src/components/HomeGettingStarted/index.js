@@ -18,12 +18,12 @@ export default function HomeGettingStarted() {
       )}
     >
       <div className="container">
-        <Heading as="h2"><Translate id="home.gettingStarted.title" description="Getting started section title">Getting Started</Translate></Heading>
+        <Heading as="h2"><Translate id="home.gettingStarted.title" description="Getting started section title">Anfangen</Translate></Heading>
         <div className="row">
           <div className={clsx("col col--6", homeCards.col)}>
             <div className={clsx("card", homeCards.card)}>
               <div className={clsx("card__header", homeCards.card__header)}>
-                <Heading as="h3"><Translate id="home.gettingStarted.getHelmTitle" description="Get Helm section title">Get Helm</Translate></Heading>
+                <Heading as="h3"><Translate id="home.gettingStarted.getHelmTitle" description="Get Wilhelm section title">Wilhelm kriegen</Translate></Heading>
               </div>
               <div className="card__body">
                 <p>
@@ -36,12 +36,12 @@ export default function HomeGettingStarted() {
                           <Translate
                             id="home.gettingStarted.installHelm.downloadLink"
                             description="Download a binary link">
-                            download a binary
+                            laad en Binärdatei runner
                           </Translate>
                         </a>
                       ),
                     }}>
-                    {'Install Helm with a package manager, or {downloadLink}.'}
+                    {'Installeer Wilhelm mit en Paketverwalter, oder {downloadLink}.'}
                   </Translate>
                 </p>
 
@@ -67,14 +67,14 @@ export default function HomeGettingStarted() {
                 <p>
                   <Translate
                     id="home.gettingStarted.postInstall.instructions"
-                    description="Instructions after installing Helm"
+                    description="Instructions after installing Wilhelm"
                     values={{
                       docsLink: (
                         <a href="./docs/intro/install/">
                           <Translate
                             id="home.gettingStarted.postInstall.docsLink"
                             description="Link to installation docs">
-                            docs
+                            Doks
                           </Translate>
                         </a>
                       ),
@@ -83,7 +83,7 @@ export default function HomeGettingStarted() {
                           <Translate
                             id="home.gettingStarted.postInstall.installationLink"
                             description="Link to installation instructions">
-                            installation
+                            Installationsanwiesungen
                           </Translate>
                         </a>
                       ),
@@ -92,12 +92,12 @@ export default function HomeGettingStarted() {
                           <Translate
                             id="home.gettingStarted.postInstall.usageLink"
                             description="Link to usage instructions">
-                            usage instructions
+                            Bruuksanwiesungen
                           </Translate>
                         </a>
                       ),
                     }}>
-                    {'Once installed, unpack the helm binary and add it to your PATH and you are good to go! Check the {docsLink} for further {installationLink} and {usageLink}.'}
+                    {'Wenn installert, papp de wilhelm-Binärdatei ut un fög se to dien PATH to un du büst good to go! Kiek in de {docsLink} för wieder {installationLink} un {usageLink}.'}
                   </Translate>
                 </p>
               </div>
@@ -111,7 +111,7 @@ export default function HomeGettingStarted() {
                   <Translate
                     id="home.gettingStarted.getChartsTitle"
                     description="Getting started get charts title">
-                    Get Charts
+                    Charts kriegen
                   </Translate>
                 </Heading>
               </div>
@@ -128,13 +128,13 @@ export default function HomeGettingStarted() {
                         <a href="https://artifacthub.io/packages/search?kind=0">
                           <Translate
                             id="home.gettingStarted.artifactHub.helmChartsLink"
-                            description="Helm charts link">
-                            Helm charts
+                            description="Wilhelm charts link">
+                            Wilhelm Charts
                           </Translate>
                         </a>
                       ),
                     }}>
-                    {'Visit {artifactHubLink} to explore {helmChartsLink} from numerous public repositories.'}
+                    {'Besöök {artifactHubLink} to entdecken {helmChartsLink} vun veele öffentliche Repositories.'}
                   </Translate>
                 </p>
 
